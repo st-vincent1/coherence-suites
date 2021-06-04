@@ -21,6 +21,8 @@ Although we originally planned to submit this work to that challenge (it was liv
 2. How do I know how good your test suite is w.r.t. other test suites?
 Since every test suite evaluates a different phenomenon, there's no easy way to or purpose in comparing them. The test suites are supposed to evaluate other models instead. In our report we provided a description of a short experiment we did, to show that a contextual model of our own scores ~91% accuracy on a test suite; if we had more models, we could then perform comparative evaluation.
 
+3. This repository contains the suites. Where is the code you used to generate them?
+The code can be found in [this repository](https://github.com/st-vincent1/coherence-suites-src.git)
 
 ### Label semantics
 The following are the semantics for labels in `*.label` files:
